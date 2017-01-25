@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+    <title>Pig Dice Game</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Pig Dice Game</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="player1">
+            <label for="Name of Player1">Player 1 Name</label>
+            <input type="text" id="player1name" class ="form-control">
+            <button type="submit" class="btn btn-primary">Roll</button>
+            <button type="submit" class="btn btn-danger">Hold</button>
+          </form>
+          <div id="result1">
+            <p class="turnscore1">Your Turn score is :</p>
+            <p class="gamescore1">Your Game score is :</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form id="player2">
+            <label for="Name of Player2">Player 2 Name</label>
+            <input type="text" id="player2name" class ="form-control">
+            <button type="submit" class="btn btn-primary">Roll</button>
+            <button type="submit" class="btn btn-danger">Hold</button>
+          </form>
+          <div id="result2">
+            <p class="turnscore2">Your Turn score is :</p>
+            <p class="gamescore2">Your Game score is :</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
